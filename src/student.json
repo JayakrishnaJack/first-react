@@ -1,0 +1,122 @@
+[
+    {
+      "ID": "1",
+      "Name": "Senpai",
+      "Class": "32",
+      "Seat": "15"
+    },
+    {
+      "ID": "2",
+      "Name": "Yui Rio",
+      "Class": "11",
+      "Seat": "14"
+    },
+    {
+      "ID": "3",
+      "Name": "Yuna Hina",
+      "Class": "12",
+      "Seat": "14"
+    },
+    {
+      "ID": "4",
+      "Name": "Koharu Hinata",
+      "Class": "21",
+      "Seat": "14"
+    },
+    {
+      "ID": "5",
+      "Name": "Mei Mio",
+      "Class": "22",
+      "Seat": "14"
+    },
+    {
+      "ID": "6",
+      "Name": "Saki Miyu",
+      "Class": "31",
+      "Seat": "14"
+    },
+    {
+      "ID": "7",
+      "Name": "Kokona Haruka",
+      "Class": "32",
+      "Seat": "14"
+    },
+    {
+      "ID": "8",
+      "Name": "Haruto Yuto",
+      "Class": "11",
+      "Seat": "12"
+    },
+    {
+      "ID": "9",
+      "Name": "Sota Yuki",
+      "Class": "12",
+      "Seat": "12"
+    },
+    {
+      "ID": "10",
+      "Name": "Hayato Haruki",
+      "Class": "21",
+      "Seat": "12"
+    },
+    {
+      "ID": "11",
+      "Name": "Ryusei Koki",
+      "Class": "22",
+      "Seat": "12"
+    },
+    {
+      "ID": "12",
+      "Name": "Sora Sosuke",
+      "Class": "31",
+      "Seat": "12"
+    },
+    {
+      "ID": "13",
+      "Name": "Riku Soma",
+      "Class": "32",
+      "Seat": "12"
+    },
+    {
+      "ID": "14",
+      "Name": "Pippi Osu",
+      "Class": "11",
+      "Seat": "5"
+    },
+    {
+      "ID": "15",
+      "Name": "Ryuto Ippongo",
+      "Class": "12",
+      "Seat": "5"
+    },
+    {
+      "ID": "16",
+      "Name": "Midori Gurin",
+      "Class": "31",
+      "Seat": "5"
+    },
+    {
+      "ID": "17",
+      "Name": "Sakyu Basu",
+      "Class": "21",
+      "Seat": "5"
+    },
+    {
+      "ID": "18",
+      "Name": "Inkyu Basu",
+      "Class": "22",
+      "Seat": "5"
+    },
+    {
+      "ID": "19",
+      "Name": "Kuu Dere",
+      "Class": "32",
+      "Seat": "5"
+    },
+    {
+      "ID": "20",
+      "Name": "Mai Waifu",
+      "Class": "31",
+      "Seat": "8"
+    }
+]

@@ -1,24 +1,56 @@
-import logo from './logo.svg';
+
 import './App.css';
 
+let stdJson = require('./student.json');
+let stdIndex = 0;
+
+function update(){
+  document.getElementById("nameF").innerText = stdJson[stdIndex].Name;
+  document.getElementById("idF").innerText = stdJson[stdIndex].ID;
+  document.getElementById("classF").innerText = stdJson[stdIndex].Class;
+  document.getElementById("seatF").innerText = stdJson[stdIndex].Seat;
+}
+
 function App() {
+  const handleNextClick =()=>{
+    if(stdIndex < 9) stdIndex++;
+    update();
+  }
+  const handlePreviousClick =()=>{
+    if(stdIndex) stdIndex--;
+    update();
+  }
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Jayakrishna</h1>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Student Data</h1>
       </header>
+      <body>
+        <table align="center" cellpadding = "10">
+        <tr>
+        <td>Name :</td>
+        <td><lable ID="nameF"/></td>
+        </tr>
+        <tr>
+        <td>ID :</td>
+        <td><lable ID="idF"/></td>
+        </tr>
+        <tr>
+        <td>Class :</td>
+        <td><lable ID="classF"/></td>
+        </tr>
+        <tr>
+        <td>Seat :</td>
+        <td><lable ID="seatF"/></td>
+        </tr>
+        </table>
+
+        <div>
+          <button className="button-33" onClick={handlePreviousClick}>Previous</button>
+          <button className="button-33" onClick={handleNextClick}>Next</button>
+        </div>
+      </body>
     </div>
   );
 }

@@ -47,8 +47,8 @@ function App() {
         </table>
 
         <div>
-          <button className="button-33" onClick={handlePreviousClick}>Previous</button>
-          <button className="button-33" onClick={handleNextClick}>Next</button>
+          <button className="button" onClick={handlePreviousClick}>Previous</button>
+          <button className="button" onClick={handleNextClick}>Next</button>
         </div>
       </body>
     </div>

@@ -27,6 +27,7 @@ function App() {
         <h1>Student Data</h1>
       </header>
       <body>
+        <br/>
         <table align="center" cellpadding = "10">
         <tr>
         <td>Name :</td>
